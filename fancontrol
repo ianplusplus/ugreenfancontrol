@@ -1,0 +1,9 @@
+INTERVAL=10
+FCTEMPS=/sys/class/hwmon/hwmon3/pwm3=/sys/class/hwmon/hwmon2/temp1_input
+FCFANS=/sys/class/hwmon/hwmon3/pwm3=/sys/class/hwmon/hwmon3/fan3_input
+MINTEMP=/sys/class/hwmon/hwmon3/pwm3=30
+MAXTEMP=/sys/class/hwmon/hwmon3/pwm3=60
+MINSTART=/sys/class/hwmon/hwmon3/pwm3=20
+MINSTOP=/sys/class/hwmon/hwmon3/pwm3=15
+MINPWM=/sys/class/hwmon/hwmon3/pwm3=15
+MAXPWM=/sys/class/hwmon/hwmon3/pwm3=255
