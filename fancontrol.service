@@ -1,0 +1,11 @@
+[Unit]
+Description=Fan speed regulator
+After=systemd-modules-load.service
+
+[Service]
+Type=simple
+ExecStart=/root/fancontrol /etc/fancontrol
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
